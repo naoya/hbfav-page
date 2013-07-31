@@ -63,7 +63,8 @@ img.display {
 }
 
 section.middle {
-  margin-top: 4em;
+  margin-top: 7em;
+  margin-bottom: 5em;
 }
 
 div.thubnail img {
@@ -74,4 +75,9 @@ div.thubnail img {
 
 h3 {
   font-weight: bold;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
 }
