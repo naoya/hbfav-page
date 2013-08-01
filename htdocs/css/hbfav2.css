@@ -65,12 +65,10 @@ div.description img {
 img.display {
   /* position: absolute; */
   max-width: 380px;
-  top: 15px;
-  left: 20px;
 }
 
 section.middle {
-  margin-top: 3em;
+  margin-top: 1em;
   margin-bottom: 5em;
 }
 
