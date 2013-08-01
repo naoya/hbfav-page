@@ -17,7 +17,10 @@ div.jumbotron {
 div.description {
   margin-top: 2em;
   background-color: #fff;
-  padding: 40px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
 
   -moz-border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
@@ -62,9 +65,16 @@ div.description img {
   margin-top: 1em;
 }
 
-img.display {
-  /* position: absolute; */
-  max-width: 380px;
+@media screen and (min-width:0px) and (max-device-width: 320px) {
+    img.display {
+        max-width: 240px;
+    }
+}
+
+@media screen and (min-width:321px) {
+    img.display {
+        max-width: 380px;
+    }
 }
 
 section.middle {
