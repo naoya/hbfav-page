@@ -11,14 +11,7 @@ div.jumbotron {
   /* background-color: rgba(0, 0, 0, 0.5); */
   background-color: rgba(238, 238, 238, 0.6);
   /* color: #fff; */
-}
-
-img.display {
-  max-width: 380px;
-}
-
-div.inner-jumbotoron {
-  margin-left: 370px;
+  padding: 20px;
 }
 
 div.description {
@@ -70,13 +63,14 @@ div.description img {
 }
 
 img.display {
-  position: absolute;
+  /* position: absolute; */
+  max-width: 380px;
   top: 15px;
   left: 20px;
 }
 
 section.middle {
-  margin-top: 6em;
+  margin-top: 3em;
   margin-bottom: 5em;
 }
 
